@@ -79,3 +79,27 @@ body {
   
   &:first-child { margin-left: 6vw; }
 }
+
+#arrow-buttons {
+    position: fixed;
+    bottom: 150px;
+    left: 37%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 200px; 
+}
+
+.arrow {
+    width: 100px;
+    height: 100px;
+}
+
+.left-arrow {
+    margin-right: 450px;
+}
+
+.right-arrow {
+    margin-left: 450px;
+}
+
